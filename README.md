@@ -1,5 +1,5 @@
-# adalink-spo-mvp
-This is the  repo for the MVP of "AdaLink: Affiliate Network for SPO Growth"
+# adalink-token-sale-mvp
+This is the  repo for the MVP of "AdaLink: Affiliate Network for Bussienss Growth"
 
 The MVP is a reactapp that include all the frontend related code.
 
