@@ -1,0 +1,31 @@
+.token-launch-menu {
+  background-color: var(--major-backgroundColor);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  min-width: 410px;
+  text-align: center;
+  z-index: 6;
+}
+
+.token-launch-text-field{
+  display: flex;
+  gap:10px;
+  width: 400px;
+  align-items: center;
+  
+}
+
+.slider{
+  width: 100%;
+}
+
+.saturation-target-field{
+  
+}
+
+.saturation-values{
+  display: flex;
+  justify-content: space-between;
+}

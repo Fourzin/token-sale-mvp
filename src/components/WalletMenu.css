@@ -1,0 +1,73 @@
+/* WalletMenu.css */
+
+/* Styles for the backdrop */
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+  }
+  
+  /* Styles for the wallet menu */
+  .wallet-menu {
+    background-color: var(--major-backgroundColor);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    min-width: 260px;
+    text-align: center;
+    
+  }
+  
+.wallet-menu h3{
+  color: var(--major-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+  /* Style for the wallet list */
+  .wallet-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for each wallet item */
+  .wallet-item {
+    margin-bottom: 1rem; /* Add spacing between wallet buttons */
+  }
+  
+  /* Style for the wallet icon */
+  .wallet-icon {
+    width: 24px; /* Adjust the icon size as needed */
+    margin-right: 8px; /* Add spacing between the icon and text */
+  }
+  
+  /* Style for wallet buttons */
+  .wallet-item button {
+    background-color: var(--type2btn-color);
+    color: var(--type2btn-fontColor);
+    padding: 0.5rem 1rem;
+    border: 1px solid;
+    border-color: var(--type2btn-borderColor);
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%; /* Equal width for all buttons */
+    display: flex;
+    align-items: center; /* Center the icon and text vertically */
+    justify-content: center; /* Center the icon and text horizontally */
+  }
+  
+  /* Style for wallet buttons on hover */
+  .wallet-item button:hover {
+    background-color: var(--type2btn-hoverColor);
+    color: var(--type2btn-hoverFontColor)
+  }
+  

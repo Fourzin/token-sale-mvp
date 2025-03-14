@@ -1,0 +1,114 @@
+
+.affiliate-transaction-background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--major-backgroundColor); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:8rem;
+  
+}
+
+.affiliate-transaction-window{
+  background-color: var(--major-color);
+  color: var(--minor-color);
+  padding: 2.2rem;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  min-width: 260px;
+  max-width: 540px;
+  text-align: center;
+
+}
+
+.token-buying-window{
+  border-style: solid;
+  border-width:1px;
+  border-radius: 10px;
+  border-color: var(--main-borderColor);
+  background-color: var(--major-color);
+  padding: 1.5rem;
+  
+}
+
+.staticBtn{
+  background-color: var(--major-color); /* Use your theme color */
+  color: var(--minor-Color); /* Use your theme color */
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+
+
+.token-amount{
+  width: 100%;
+  font-size: 28px;
+  border-radius: 5px;
+  
+  padding-left: 5px;
+  border-color: var(--success-borderColor);
+  background-color: var(--major-color);
+  color: var(--major-textColor);
+  border-width: 1px;
+  border-style: solid;
+  outline:none;
+}
+
+.ada-amount{
+  width: 100%;
+  font-size: 28px;
+  border-radius: 5px;
+  padding-left: 5px;
+  border-color: var(--success-borderColor);
+  background-color: var(--major-color);
+  color: var(--major-textColor);
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+}
+
+.purchase-button {
+  position: relative;
+  
+  padding: 6px;
+  margin-top: 16px;
+  width: 100%;
+  
+  border-radius: 5px;
+
+  background-color: var(--type1btn-color);
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 24px;
+  font-weight:600;
+  color: var(--type1btn-fontColor);
+  font-family: var(--shrooms-font);
+}
+
+.purchase-button:hover{
+  background-color: var(--type1btn-hoverColor);
+  color: var(--type1btn-hoverFontColor);
+  cursor: pointer;
+}
+
+.wallet-connect-link{
+  text-align: left;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.wallet-connect-link:hover{
+  cursor: pointer;
+  color: var(--type1btn-hoverColor);
+}

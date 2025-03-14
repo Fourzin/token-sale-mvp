@@ -1,0 +1,97 @@
+/* src/components/OrderBook.css */
+
+/* Order Book container */
+.order-book {
+    background-color: var(--major-color);
+    
+    
+    border-radius: 5px; /* Consistent corner radius */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Display elements side by side */
+    height: 300px;
+  }
+
+  .current-price{
+    display: flex;
+    gap:20px;
+    text-align: left;
+    padding-top: 1rem ;
+    padding-left: 1.5rem;
+  }
+
+  .order-lists{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row; /* Display elements side by side */
+  }
+  
+  /* Order Book styles */
+  .order-book .orders-section {
+    flex: 1; /* Equal width for both sections */
+    border-radius: 5px; /* Consistent corner radius */
+    padding: 1rem; /* Add padding to space out the content */
+    margin: 0 0.5rem; /* Add spacing between the two lists */
+    /*border: 1px solid var(--minor-color); /* Add a 1px border with minor color */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    
+  }
+  
+  /* Titles for Buy and Sell Orders */
+  .order-book .order-title {
+    text-align: center;
+    background-color: var(--minor-color); /* Use minor color for background */
+    padding: 0.5rem;
+    border-radius: 5px 5px 0 0; /* Rounded corners for top */
+    color: black;
+    
+  }
+  
+  /* Remove the default list styles */
+  .order-book .orders-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove margin for lists */
+    border: 1px solid var(--main-borderColor); /* Add a 1px border with minor color */
+    border-radius: 0 0 5px 5px; /* Rounded corners for top */
+    overflow-y: auto;
+    height: 197px;
+    background: var(--major-backgroundColor);
+  }
+  
+  /* Style each order item */
+  .order-book .orders-section ul li {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-align: left; /* Move the text to the left */
+    margin-top: 0.1rem;
+    border: solid 1px var(--main-borderColor);
+    border-radius: 5px;
+    background-color: var(--major-color);
+    margin: 6px 10px;
+  }
+  
+  /* Hover effect */
+  .order-book .orders-section ul li:hover {
+    background-color: transparent;
+    
+  }
+
+  .order-book .orders-section ul li div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+
+  .order-book .orders-section ul li:hover div{
+    
+  }
+  
+  /* Style order book data as needed */
+  

@@ -1,0 +1,113 @@
+/* SignUpWindow.css */
+
+  
+  /* Styles for the wallet menu */
+  .signup-menu {
+    background-color: var(--major-backgroundColor);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    min-width: 260px;
+    text-align: center;
+    z-index: 6;
+  }
+  
+.signup-menu h3{
+  color: var(--major-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.sign-up-text-fields-area{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+
+.sign-up-text-field{
+  display: flex;
+  gap:10px;
+  width: 360px;
+  align-items: center;
+  
+}
+
+.sign-up-text-field-title{
+  color:var(--major-color);
+}
+
+
+.select-wallet-div{
+  display:flex;
+  gap:5px;
+  background:var(--major-color);
+  padding:0px 5px;
+  align-items: center;
+}
+
+.select-wallet-div:hover{
+  cursor: pointer;
+}
+
+
+.sign-up-img-upload{
+  display: flex;
+  width: 90px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  background:rgba(255, 255, 255, 1);
+  padding: 0.1rem;
+  border-radius: 5px;
+}
+
+.sign-up-img-upload label:hover{
+  cursor: pointer;
+}
+
+.sign-up-img-element{
+  
+  max-height: 86px;
+  object-fit: cover;
+}
+
+.btnType1 {
+  background-color: var(--type1btn-color); /* Use your theme color */
+  color: var(--type1btn-fontColor); /* Use your theme color */
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btnType1:hover {
+  background-color: var(--type1btn-hoverColor); /* Use your theme color */
+}
+
+
+
+  /* Style for the wallet list */
+  .signup-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for each wallet item */
+  .signup-item {
+    margin-bottom: 1rem; /* Add spacing between wallet buttons */
+  }
+
+  .token-pfp-affiliate-link-window{
+    border-style: solid;
+    border-radius: 5px;
+    background-color: white;
+    
+  }
+
+  .wallet-dropdown {
+    
+  }
+  
+  

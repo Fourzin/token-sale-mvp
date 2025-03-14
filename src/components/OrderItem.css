@@ -1,0 +1,79 @@
+/* OrderItem.css */
+
+.order-item {
+    background-color: var(--major-color);
+    
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 0.8rem;
+    
+
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    /*align-items: center;*/
+    border: 1px solid var(--main-borderColor);
+    border-radius: 5px;
+    
+    margin-bottom: 0.5rem;
+    
+  }
+
+  .order-item:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-item div {
+    display: flex;
+    
+    justify-content: space-between;
+    
+  }
+  
+  .order-item div span {
+    flex: 1;
+  }
+  
+  .order-item button {
+    background-color: var(--minor-color);
+    color: var(--major-color);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .order-item button:hover {
+    background-color: var(--type1btn-hoverColor);
+  }
+  
+  /* Updated CSS with "order-parameter" class */
+  
+  .order-parameter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+
+  .order-parameter-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+  }
+  
+  .order-parameter-name {
+    font-weight: bold;
+    /*color: #333; /* You can adjust the color as needed */
+  }
+  
+  .order-parameter-value {
+    /*color: #666; /* You can adjust the color as needed */
+  }
+
+
+  

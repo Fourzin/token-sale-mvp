@@ -1,0 +1,68 @@
+.rso{
+    background-color: var(--major-backgroundColor);
+    color: var(--minor-color);
+    padding: 2rem 0;
+    text-align: center;
+    flex: 1;
+}
+
+.rso-info{
+    background-color: var(--major-color);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  
+    width: 100%;
+    max-width: 800px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.rso-parameter{
+    display: flex;
+    gap: 5px;
+    text-align: left;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.rso-parameter:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #e6d26a;
+}
+
+.rso-info h4{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.rso-info input{
+    width: 95%; /* Set the width of input/select fields to 100% */
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-left: 0px;
+    
+    color: var(--minor-color);
+    background-color: var(--major-backgroundColor);
+    border-color: var(--main-borderColor);
+    border-style: solid ;
+    border-radius: 5px;
+    border-width: 1px;
+    outline-style: none;
+  }
+
+  .rso-info button {
+    background-color: var(--minor-color);
+    color: var(--major-color);
+    padding: 0.6rem 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%; /* Set the width of the button to 100% */
+    
+  }
+  
+  .rso-info button:hover {
+    background-color: var(--type1btn-hoverColor);
+    
+  }

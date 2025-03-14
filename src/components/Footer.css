@@ -1,0 +1,42 @@
+/* src/components/Footer.css */
+
+/* Footer container */
+footer {
+    background-color: var(--major-backgroundColor);
+    color: var(--minor-color);
+    padding: 1rem 0;
+    
+    
+  }
+  
+  /* Center the content */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Footer content */
+  .footer-content {
+    text-align: center;
+    color: var(--major-color);
+  }
+  
+  .footer-content p {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer links */
+  .footer-links a {
+    color: var(--minor-color);
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: var(--major-color);
+  }
+  

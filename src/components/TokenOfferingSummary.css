@@ -1,0 +1,83 @@
+/* Updated styles with project-defined CSS variables */
+
+.order-summary-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* Place the menu above everything else */
+  }
+  
+  .order-summary {
+    background-color: var(--major-backgroundColor); /* Use your major color */
+    border-radius: 5px;
+    padding: 1rem;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-summary .close-button{
+    color:var(--major-color);
+    background-color: transparent;
+    text-align: right;
+  }
+
+  .order-summary .close-button:hover{
+    color:var(--type1btn-hoverColor);
+    cursor: pointer;
+  }
+
+  .order-summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .order-summary-header h2 {
+    margin: auto;
+    color: var(--major-color); /* Use your minor color for the text */
+  }
+  
+  .order-summary-content {
+    margin-top: 1rem;
+  }
+  
+  .item-container{
+    color: var(--major-color);
+    display:flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+  }
+
+  .item-container:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+
+  }
+
+  .order-summary-footer {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .place-order-button {
+    background-color:var(--type1btn-color);;
+    color: var(--minor-color);
+    padding: 0.6rem 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%; /* Set the width of the button to 100% */
+    
+  }
+  
+  .place-order-button:hover {
+    background-color: var(--type1btn-hoverColor);
+    
+  }

@@ -1,0 +1,87 @@
+/* src/components/PairPool.css */
+
+/* Pair Pool styles */
+.pair-pool {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  /* Search Bar styles */
+  .search-bar {
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
+    
+  }
+
+  .search-bar input {
+    padding: 0.3rem ;
+    color: var(--minor-color);
+    background-color: transparent;
+    border-color: var(--main-borderColor);
+    border-style: solid ;
+    border-radius: 5px;
+    border-width: 1px;
+    
+  }
+
+  
+  /* Pair Selection Dropdown styles */
+  .pair-selection {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pair-dropdown {
+    max-height: 687px; 
+    overflow-y: auto;
+    border: 1px solid var(--main-borderColor);
+    border-radius: 5px;
+    flex-grow: 1;
+
+  }
+  
+  .pair-dropdown ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .pair-dropdown li {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .pair-dropdown li.selected-pair {
+    background-color: var(--minor-color);
+    color: black;
+  }
+  
+
+  .pair-dropdown li:hover {
+    background-color: rgb(128, 128, 128,0.4);
+    color: var(--minor-color);
+    }
+  
+  .pair-pool button {
+    background-color: var(--minor-color); /* Use your theme color */
+    color: var(--major-color); /* Use your theme color */
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .pair-pool button:hover {
+    background-color: var(--type1btn-hoverColor); /* Use your theme color */
+  }
+
+  

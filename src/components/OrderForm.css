@@ -1,0 +1,120 @@
+/* src/components/OrderForm.css */
+
+/* Order Form container */
+.order-form {
+  background-color: var(--major-color);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Set the desired width for the form */
+  margin: 0 auto;
+  
+}
+
+/* Order Form title */
+.order-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+/* Form elements */
+.order-form form {
+  display: flex;
+  justify-content: space-between; /* Add space between left and right sides */
+  width: 100%;
+}
+
+.left-side{
+  flex: 1; /* Equal width for left and right sides */
+  padding: 0rem 1rem; /* Add padding to space out the content */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.right-side {
+  flex: 1; /* Equal width for left and right sides */
+  padding: 1rem; /* Add padding to space out the content */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.left-side input{
+  width: 80%; /* Set the width of input/select fields to 100% */
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  
+  color: var(--minor-color);
+  background-color: var(--major-backgroundColor);
+  border-color: var(--main-borderColor);
+  border-style: solid ;
+  border-radius: 5px;
+  border-width: 1px;
+  outline-style: none;
+}
+
+.left-side .text-input{
+  width: 80%; /* Set the width of input/select fields to 100% */
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  text-align: left;
+  color: var(--minor-color);
+  background-color: var(--major-backgroundColor);
+  border-color: var(--main-borderColor);
+  border-style: solid ;
+  border-radius: 5px;
+  border-width: 1px;
+  outline-style: none;
+}
+
+.right-side select {
+  width: 100%; /* Set the width of input/select fields to 100% */
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 2.2rem;
+  display: flex;
+
+  color: var(--minor-color);
+  background-color: var(--major-backgroundColor);
+  border-color: var(--main-borderColor);
+  border-style: solid ;
+  border-radius: 5px;
+  border-width: 1px;
+  outline-color: var(--main-borderColor);
+  
+}
+
+.right-side select:active {
+  border-style: none;
+  background-color: var(--major-backgroundColor);
+  outline: none;
+}
+
+
+.right-side button {
+  background-color: var(--minor-color);
+  color: var(--major-color);
+  padding: 0.6rem 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%; /* Set the width of the button to 100% */
+  
+}
+
+.right-side button:hover {
+  background-color: var(--type1btn-hoverColor);
+  
+}
